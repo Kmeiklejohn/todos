@@ -41,6 +41,11 @@ class TodoList extends React.Component{
                completed={todo.completed}/>))}
             </ul>
         </section>
+        <footer className='footer'>
+        <span className='todo-count'><strong>0</strong> item(s) left</span>
+        <button className='clear-complete'>Clear completed</button>
+
+        </footer>
     </body>
     )
     }
