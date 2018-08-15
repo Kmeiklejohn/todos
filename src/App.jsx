@@ -85,7 +85,7 @@ class App extends Component {
         </section>
         
         <footer className="footer">
-          <span className='todo-count'><strong>0</strong> item(s) left</span>
+          <span className='todo-count'><strong>{this.state.todos.length}</strong> item(s) left</span>
             <ul className="filters">
               <li>
                 <Link to="/">All</Link>
